@@ -66,5 +66,5 @@ ax.legend()
 plt.show()
 
 # --- Export for COPASI & SBML ---
-save_model('OxyR_stress_model.cps')          # COPASI format
-save_model('OxyR_stress_model.xml', sbml=True)  # SBML format
+save_model('../OxyR_stress_model.cps')          # COPASI format
+save_model('../OxyR_stress_model.xml', sbml=True)  # SBML format
